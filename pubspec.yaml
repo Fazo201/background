@@ -1,0 +1,82 @@
+name: currency_app
+description: "A new Flutter project."
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI Elements and Design
+  cupertino_icons: ^1.0.8
+  flutter_screenutil: ^5.9.3
+
+  # Logging
+  l: ^4.0.2
+
+  # Local Storage
+  shared_preferences: ^2.3.2
+
+  # Routing and Navigation
+  go_router: ^14.2.7
+
+  # Development Tools
+  device_preview: ^1.2.0
+
+  # Networking
+  http: ^1.2.2
+  http_parser: ^4.0.2
+
+  # Currency Utilities
+  currency_picker: ^2.0.21
+
+  # Debounce Functionality
+  easy_debounce: ^2.0.3
+
+  # State Management
+  flutter_bloc: ^8.1.6
+
+  # Code Generation
+  freezed_annotation: ^2.4.4
+  
+  # Connectivity
+  connectivity_plus: ^6.0.5
+
+  # Local Database
+  sqflite: ^2.3.3+2
+
+  # File Path
+  path: ^1.9.0
+
+  # Local Notifications
+  flutter_local_notifications: ^17.2.3
+
+  # Timezone
+  timezone: ^0.9.4
+
+  # Background Tasks
+  workmanager: ^0.5.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Code Generation Tools
+  build_runner: ^2.4.12
+  freezed: ^2.5.7
+
+  # Linting
+  flutter_lints: ^4.0.0
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icons/
+    - assets/images/
